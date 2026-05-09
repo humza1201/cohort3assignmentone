@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.container{
+    width: 60%;
+    height: 100%;
+    background-color: #F7D346;
+    display: flex;
+    align-items: center;
+}
+
+.box{
+    width: 40%;
+    height: 100%;
+    background-color:#FFF06A ;
+}
+
+.logo img{
+    width: 190px;
+    height: 100px;
+    position: absolute;
+    top: 5px;
+}
+
+.icon img{
+    width: 60px;
+    height: 90px;
+    position: absolute;
+    top: 5px;
+    left: 95%;
+}
+
+.container .content{
+    padding: 30px;
+    position: absolute;
+    top: 40%;
+}
+
+.content h1{
+    font-size: 70px;
+}
+
+.box img{
+    width: 30%;
+    height: 75%;
+    position: absolute;
+    top: 10%;
+    right: 20%;
+}
